@@ -2,7 +2,41 @@
 
 BestStore MVC is an ASP.NET Core web application for managing a flower store inventory. The application provides a modern, responsive interface for managing flower products with features for creating, reading, updating, and deleting flower items.
 
-## Features
+## Web Flow
+1) Open the app
+ - Visit http://localhost:5122/.
+
+2) Go to the Flowers section
+ - In the main menu, click Flowers.
+
+3) Add a new flower
+ - Click Add New Flower.
+ - The Flowers/Create page appears.
+ - Fill in the form and click Submit to save the new flower.
+ - Click Cancel to return to the Flowers page without adding anything.
+
+4) Edit an existing flower
+ - Click Edit beside the flower you want to change.
+ - On the Flower Edit page you can modify any field except ID and Creation Date.
+ - Click Submit to save your changes, or Cancel to discard them.
+
+5) Delete a flower
+- Click Delete beside the flower you want to remove.
+- A confirmation dialog asks “Are you sure?”
+- Click OK to delete the flower, or Cancel to keep it.
+
+
+## Run the app
+
+Option 1
+1)Throught GitHub got to BestStore-MVC---FlowerShop Repository
+2) Click on green button Code and On drop-down menu select Open with GitHub Desktop
+3) Discurd all changes if Changes exist
+4) Click on Open in Visual Studio Code
+5) On the Visual Studio Bar Menu click on Terminal and select the cmd (Command Prompt)
+6) Run dotnet restore
+7) Run dotnet run
+8) Open a browser and enter http://localhost:5122/
 
 
 
@@ -13,13 +47,7 @@ BestStore MVC is an ASP.NET Core web application for managing a flower store inv
   - Delete flowers from the inventory
   - View detailed information about each flower
 
-- **Product Information**
-  - Name
-  - Category
-  - Price
-  - Description
-  - Product Images
-  - Creation Date
+
 
 ## Technical Stack
 
@@ -41,36 +69,13 @@ BestStoreMVC/
 └── Migrations/        # Database Migrations
 ```
 
-## Getting Started
-
-### Prerequisites
 
 - .NET 6.0 SDK or later
 - SQL Server
 - Visual Studio 2022 or Visual Studio Code
 
-### Installation
-
-1. Clone the repository
-2. Update the connection string in `appsettings.json`
-3. Run the following commands in the terminal:
-   ```bash
-   dotnet restore
-   dotnet ef database update
-   dotnet run
-   ```
-
-### Configuration
-
-The application uses the following configuration in `appsettings.json`:
-- Database connection string
-- Application settings
-- Environment-specific settings
-
-## Development
 
 The application follows the MVC (Model-View-Controller) pattern:
 - **Models**: Define the data structure and business logic
 - **Views**: Handle the presentation layer
 - **Controllers**: Manage the flow between models and views
-
