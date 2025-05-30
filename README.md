@@ -25,6 +25,13 @@ BestStore MVC is an ASP.NET Core web application for managing a flower store inv
 - A confirmation dialog asks “Are you sure?”
 - Click OK to delete the flower, or Cancel to keep it.
 
+  - **Flower Management**
+  - View all flowers in the store
+  - Add new flowers to the inventory
+  - Edit existing flower details
+  - Delete flowers from the inventory
+  - View detailed information about each flower
+
 
 ## Run the app
 
@@ -38,13 +45,7 @@ BestStore MVC is an ASP.NET Core web application for managing a flower store inv
   - Run dotnet run
   - Open a browser and enter http://localhost:5122/
  
-   
-- **Flower Management**
-  - View all flowers in the store
-  - Add new flowers to the inventory
-  - Edit existing flower details
-  - Delete flowers from the inventory
-  - View detailed information about each flower
+  
 
 
 
