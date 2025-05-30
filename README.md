@@ -29,14 +29,14 @@ BestStore MVC is an ASP.NET Core web application for managing a flower store inv
 ## Run the app
 
 Option 1
-1)Throught GitHub got to BestStore-MVC---FlowerShop Repository
-2) Click on green button Code and On drop-down menu select Open with GitHub Desktop
-3) Discurd all changes if Changes exist
-4) Click on Open in Visual Studio Code
-5) On the Visual Studio Bar Menu click on Terminal and select the cmd (Command Prompt)
-6) Run dotnet restore
-7) Run dotnet run
-8) Open a browser and enter http://localhost:5122/
+ • Throught GitHub got to BestStore-MVC---FlowerShop Repository
+ • Click on green button Code and On drop-down menu select Open with GitHub Desktop
+ • Discurd all changes if Changes exist
+ • Click on Open in Visual Studio Code
+ • On the Visual Studio Bar Menu click on Terminal and select the cmd (Command Prompt)
+ • Run dotnet restore
+ • Run dotnet run
+ • Open a browser and enter http://localhost:5122/
 
 
 
